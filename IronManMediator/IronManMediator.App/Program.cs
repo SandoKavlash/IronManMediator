@@ -1,6 +1,4 @@
-﻿using IronManMediator.Abstractions.Abstractions;
-using IronManMediator.Abstractions.Abstractions.Requests;
-using IronManMediator.App.HostedServices;
+﻿using IronManMediator.App.HostedServices;
 using IronManMediator.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
