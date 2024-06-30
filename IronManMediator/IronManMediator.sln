@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronManMediator.App", "IronManMediator.App\IronManMediator.App.csproj", "{9808B802-E98A-422C-B0AC-BBEBA5AD3A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronManMediator.App", "IronManMediator.App\IronManMediator.App.csproj", "{9808B802-E98A-422C-B0AC-BBEBA5AD3A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronManMediator", "IronManMediator\IronManMediator.csproj", "{CEA97853-1FA8-4543-B1BF-645549BC0963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronManMediator", "IronManMediator\IronManMediator.csproj", "{CEA97853-1FA8-4543-B1BF-645549BC0963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronManMediator.Abstractions", "IronManMediator.Abstractions\IronManMediator.Abstractions.csproj", "{4A1168AB-C22A-4835-AE60-A20836EE917B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CEA97853-1FA8-4543-B1BF-645549BC0963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA97853-1FA8-4543-B1BF-645549BC0963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA97853-1FA8-4543-B1BF-645549BC0963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1168AB-C22A-4835-AE60-A20836EE917B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1168AB-C22A-4835-AE60-A20836EE917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1168AB-C22A-4835-AE60-A20836EE917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1168AB-C22A-4835-AE60-A20836EE917B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
